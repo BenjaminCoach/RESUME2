@@ -1,0 +1,30 @@
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #7fffd4;
+}
+
+.menu {
+    background-color: #f0ffff;
+    font-size: medium;
+    font-style: oblique;
+    padding-left: 0%;
+    width: 150px;
+    height: 100px;
+    margin-left: 0;
+    list-style: none;
+}
+
+.kwetso {
+    text-align: center;
+}
+
+header {
+    background-color: #7fff00;
+}
+
+footer {
+    background-color: #daa520;
+}
