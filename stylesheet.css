@@ -3,18 +3,26 @@ html {
 }
 
 body {
-    background-color: #7fffd4;
+    background-color: #FFCAD4;
+    margin: 0%;
+
 }
 
 .menu {
-    background-color: #f0ffff;
+    background-color: #F4ACB7;
     font-size: medium;
     font-style: oblique;
-    padding-left: 0%;
+    padding: 5px;
     width: 150px;
-    height: 100px;
-    margin-left: 0;
+    height: 110px;
+    margin-top: 3%;
+    margin-bottom: 2%;
     list-style: none;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 2%;
+    border-style: solid;
+    border-color: #000;
 }
 
 .kwetso {
@@ -22,9 +30,36 @@ body {
 }
 
 header {
-    background-color: #7fff00;
+    background-color: #ffe5d9;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-style: solid;
+    border-color: #000;
 }
 
 footer {
-    background-color: #daa520;
+    background-color: #ffe5d9;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-style: solid;
+    border-color: #000;
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+
+img {
+    border-radius: 50%;
+    margin-top: 2%;
+    border-start-end-radius: 50;
+    border: 5px solid #000
+}
+
+article {
+    margin-left: 5%;
+    margin-right: 5%;
+    border-style: solid;
+    border-color: #000;
+    padding-left: 2%;
 }
