@@ -1,11 +1,37 @@
 html {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
 }
 
-body {
-    background-color: #FFCAD4;
-    margin: 0%;
+.flexbox-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    space
+}
 
+.flexbox-item-1 {
+    min-height: 50px;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+.flexbox-item-2 {
+    min-height: 200px;
+    padding: 10px;
+}
+
+img {
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-right: 40px;
+    padding-left: 25px;
+    padding-right: 40px;
+}
+
+header {
+    background-color: #FFE5D9;
+    margin-left: 5%;
+    width: 1700px;
 }
 
 .menu {
@@ -19,47 +45,56 @@ body {
     margin-bottom: 2%;
     list-style: none;
     margin-left: 5%;
-    margin-right: 5%;
-    padding-left: 2%;
+    margin-right: 30%;
+    padding-left: 5%;
+    padding-right: 15%;
     border-style: solid;
     border-color: #000;
 }
 
-.kwetso {
-    text-align: center;
-}
 
-header {
-    background-color: #ffe5d9;
-    margin-left: 5%;
-    margin-right: 5%;
+body {
+    background-color: #FFCAD4;
+    margin: 0%;
     border-style: solid;
     border-color: #000;
+    box-sizing: content-box;
 }
 
-footer {
-    background-color: #ffe5d9;
-    margin-left: 5%;
-    margin-right: 5%;
+.menu {
+    background-color: #F4ACB7;
+    font-size: medium;
+    font-style: oblique;
+    padding: 5px;
+    width: 100px;
+    height: 110px;
     margin-top: 3%;
-    margin-bottom: 3%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 8px;
     border-style: solid;
     border-color: #000;
-    padding-left: 2%;
-    padding-bottom: 2%;
-}
-
-img {
-    border-radius: 50%;
-    margin-top: 2%;
-    border-start-end-radius: 50;
-    border: 5px solid #000
 }
 
 article {
     margin-left: 5%;
     margin-right: 5%;
-    border-style: solid;
-    border-color: #000;
-    padding-left: 2%;
+    padding-left: 8px;
+}
+
+footer {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    background-color: #f8f8ff;
+
+}
+
+#element2 {
+    position: relative;
+    left: 10px;
+    right: 10px;
 }
