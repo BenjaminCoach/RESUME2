@@ -2,23 +2,6 @@ html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
 }
 
-.flexbox-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: stretch;
-    space
-}
-
-.flexbox-item-1 {
-    min-height: 50px;
-    padding: 10px;
-    border: 1px solid #000;
-}
-
-.flexbox-item-2 {
-    min-height: 200px;
-    padding: 10px;
-}
 
 img {
     border-radius: 50%;
@@ -30,10 +13,14 @@ img {
 }
 
 header {
+    background: url(../RESUME2/image/background.avif);
+    background-repeat: no-repeat;
     background-color: #FFE5D9;
-    margin-left: 5%;
-    width: 1700px;
-    padding-left: 3%;
+    background-size: cover;
+    /*margin-left: 3%;
+    padding-left: 3%;*/
+    
+
 }
 
 .menu {
