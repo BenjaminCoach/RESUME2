@@ -1,44 +1,27 @@
 html {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    ;
 }
 
 
 img {
-    border-radius: 50%;
+
+    border-radius: 100px;
     margin-left: 25px;
-    margin-right: 40px;
+    margin-right: 25px;
     padding-left: 25px;
     padding-top: 3%;
-    padding-right: 40px;
+    padding-right: 3px;
 }
 
 header {
-    background: url(../RESUME2/image/background.avif);
+    background: url(../RESUME2/image/background.jpg);
     background-repeat: no-repeat;
+    text-align: center;
     background-color: #FFE5D9;
     background-size: cover;
     /*margin-left: 3%;
     padding-left: 3%;*/
-    
-
-}
-
-.menu {
-    background-color: #F4ACB7;
-    font-size: medium;
-    font-style: oblique;
-    padding: 5px;
-    width: 150px;
-    height: 110px;
-    margin-top: 3%;
-    margin-bottom: 2%;
-    list-style: none;
-    margin-left: 5%;
-    margin-right: 30%;
-    padding-left: 5%;
-    padding-right: 15%;
-    border-style: solid;
-    border-color: #000;
 }
 
 
@@ -71,4 +54,40 @@ footer {
     position: relative;
     left: 10px;
     right: 10px;
+}
+
+@media(min-width:400px) {
+    body {
+        color: #000;
+        background-color: brown;
+    }
+}
+@media(max-width:800px) {
+    body {
+        color: #000;
+        background-color: rgba(255, 0, 255, 0.463);
+    }
+
+}
+img {
+
+    border-radius: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-left: 25px;
+    padding-top: 3%;
+    padding-right: 3px;
+}
+
+.sidebar {
+    padding: 2rem;
+    flex: 2;
+    background-color: rgba(169, 169, 169, 0.542);
+}
+.nav-menu{
+    list-style: none;
+    padding: 0%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: deeppink;
 }
