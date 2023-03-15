@@ -1,3 +1,7 @@
+/*It will be a good idea to add more borders around some sections as mentioned on our call*/
+/*please add more of your own information instead of using placeholder text*/
+/*Remember for the final resume you need to include flexbox and grid, thanks!*/
+
 html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     ;
@@ -84,6 +88,8 @@ img {
     flex: 2;
     background-color: rgba(169, 169, 169, 0.542);
 }
+
+/*add more padding and margin in your menu*/
 .nav-menu{
     list-style: none;
     padding: 0%;
